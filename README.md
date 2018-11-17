@@ -1,4 +1,4 @@
-hugoBasicExample
+hugoBasicExample - my-fork
 ==========
 
 This is an example site for [Hugo](https://gohugo.io/).
