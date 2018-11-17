@@ -1,7 +1,6 @@
-baseurl = "https://gohugo.io/"
+baseurl = "https://static.grinnell.edu/"
 title = "Hugo Themes"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 canonifyurls = false
 paginate = 3
-
