@@ -22,12 +22,14 @@ RUN minify --recursive --verbose \
         --output public/ \
         public/
 
+WORKDIR /data
 RUN minify --recursive --verbose \
         --match=\.*.css$ \
         --type=css \
         --output public/ \
         public/
 
+WORKDIR /data
 RUN minify --recursive --verbose \
         --match=\.*.html$ \
         --type=html \
