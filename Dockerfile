@@ -14,8 +14,8 @@ RUN hugo
 ###
 #
 #FROM mysocialobservations/docker-tdewolff-minify
-#COPY --from=1 /data/public /data/public
-#WORKDIR /data
+COPY --from=1 /data/public /data/public
+WORKDIR /data
 #RUN minify --recursive --verbose \
 #        --match=\.*.js$ \
 #        --type=js \
